@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* Módulo de Inventario */
+#modulo-inventario {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 40px auto 80px auto; /* mayor separación abajo */
+    max-width: 1100px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease;
+}
+
+body {
+    background-image: url('../images/inventario1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#modulo-inventario h2, #modulo-inventario h3 {
+    color: #e74c3c;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#modulo-inventario form {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+#modulo-inventario fieldset {
+    border: none;
+}
+
+#modulo-inventario label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+#modulo-inventario input[type="number"],
+#modulo-inventario select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+#modulo-inventario .boton-rojo {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#modulo-inventario .boton-rojo:hover {
+    background-color: #c0392b;
+}
+
+#modulo-inventario table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#modulo-inventario th,
+#modulo-inventario td {
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+#modulo-inventario th {
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+}
+
+#modulo-inventario td {
+    background-color: #fdfdfd;
+}
+
+#modulo-inventario tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+#modulo-inventario td[style*="color: red;"] {
+    font-weight: bold;
+}
+
+#modulo-inventario td[style*="color: green;"] {
+    font-weight: bold;
+}
